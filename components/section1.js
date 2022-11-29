@@ -11,7 +11,7 @@ import "swiper/css";
 const Section1 = () => {
   SwiperCore.use([Autoplay]);
   return (
-    <section className="py-16 ">
+    <section className="py-16 ml-14 ">
       <div className="container max-auto md:px-20">
         <h1 className="text-3xl font-bold uppercase pb-12 text-center">
           Trending

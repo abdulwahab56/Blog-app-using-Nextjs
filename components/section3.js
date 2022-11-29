@@ -1,18 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import Author from "./_child/author";
-const Section2 = () => {
+
+const Section3 = () => {
   return (
     <section>
       <div className="container max-auto md:px-20 py-16 ml-14">
         <h1 className="text-3xl font-bold uppercase pb-12 text-center">
-          Latest posts
+          most Popular posts
         </h1>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14 ">
-          {posts()}
-          {posts()}
-          {posts()}
-          {posts()}
+        <div className="grid  lg:grid-cols-2 gap-14 ">
           {posts()}
           {posts()}
         </div>
@@ -21,7 +18,7 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default Section3;
 
 function posts() {
   return (
@@ -54,7 +51,7 @@ function posts() {
               Your most unhappy customers are your greate source of learning
             </span>
           </Link>
-          <p className="py-3">
+          <p className="py-3 text-lg">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.
